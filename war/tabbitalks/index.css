@@ -1,0 +1,62 @@
+*{margin:0;
+ padding:0;
+
+}
+
+ 
+body {
+text-align:center;
+background-image: url("../tabbitalks/leaves.jpg");
+background-size: 100%, 100%;
+overflow: scroll;
+min-height: 100px;
+ 
+}
+
+p{
+  word-wrap: break-word;
+  line-height: 20px;
+}
+
+#blogs{
+width:960px;
+margin:0 auto;
+text-align:left;
+border-radius: 10px;
+background-color : #F7FADC;
+
+}
+.backimg {border-radius: 5px;}
+.proimg {border-radius: 25px; 
+ border: 10px solid #ffffff ;  margin-top: -200;}
+ 
+ .active{
+	 background-color: pink;
+ }
+ 
+.about{
+    margin :0 auto;
+    max-width : 500px;
+    background-color : lightblue;
+    border-radius: 5px
+}
+.links{
+    text-align:left;
+    word-wrap: break-word;
+}
+
+.title{
+	font-family: "Times New Roman", Georgia, Serif;
+	 background: linear-gradient(grey, black);
+	border-style: solid;
+}
+.snippetimg{
+	margin-right:  -100px; 
+}
+.snippet{
+	border-style: solid;
+	  background-color : white;
+	
+}
+
+

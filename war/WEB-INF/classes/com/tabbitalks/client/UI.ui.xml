@@ -1,0 +1,123 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:b="urn:import:com.github.gwtbootstrap.client.ui">
+	<ui:style>
+	.content {
+		overflow: auto;
+	}
+	
+	.nav {
+		max-width: 1280px;
+	}
+	</ui:style>
+
+
+	<g:HTMLPanel styleName="{style.content}">
+
+		<b:Container>
+			<b:ResponsiveNavbar>
+				<b:Brand>Tabbitalks</b:Brand>
+				<b:NavCollapse>
+					<b:Nav>
+						<b:NavLink href="#">Home</b:NavLink>
+						<b:NavLink href="../tabbitalks/about.html">About</b:NavLink>
+						<b:NavLink href="../tabbitalks/contact.html">Contact Me</b:NavLink>
+						<b:NavLink href="../tabbitalks/policy.htm">Policy</b:NavLink>
+					</b:Nav>
+				</b:NavCollapse>
+			</b:ResponsiveNavbar>
+
+			<g:HTML styleName="{style.nav}">
+
+				<link rel="stylesheet" type="text/css" href="../tabbitalks/index.css" />
+
+				<img class="backimg" width="100%" src="../tabbitalks/logo.jpg" />
+				<img class="proimg" width="320" src="../tabbitalks/proimg.jpg" />
+
+
+				<div class="title">
+					<h2>Peace > Violance.</h2>
+					</div>
+					<div class="snippet">
+					<div class="snippeimg">
+						<img
+							src="http://i.dailymail.co.uk/i/pix/2013/11/09/article-2494153-194B605F00000578-683_306x423.jpg"
+							style="width:200px;height:200px;" />
+						<p>
+							<b> “Be the change you want to see in the world.” - Mahatma
+								Gandhi.</b>
+						</p>
+
+					</div>
+				
+
+					
+						<p>
+							Today is Remembrance Day, a day where we hold a two minute
+							silence at 11am to commemorate those that died during the First
+							World War in addition to marking the day that the war ended on
+							November 11th 1918.
+							
+								Since then there has of course been World War 2 and as far as
+								I’m concerned everything that has been and is still happening in
+								the middle east may as well be deemed World War 3, a world at
+								war time and time again. The wars will not be the end of the
+								world, it will be a reason why the human race will end if we
+								keep killing each other, the only thing that can lead to the
+								worlds true destruction, would be found out if we carry on to
+								ignore the signs of Global Warming.
+								But I digress, I can only be thankful to all those that have died
+								and continue to die in the name of my safety, and remorseful for
+								all the families that are carrying on without their loved ones.
+								During this two minute silence today I will be grateful to all
+								those families that have had loved ones fight for us, defending
+								our way of living and yet my heart will bleed, because there are
+								so many innocents dying at the hands of those at war; women,
+								children, men, when will it end? I fear it will never truly be
+								over, there are so many reasons the human race will find to have
+								at each other, but during this silence I will be thankful for
+								the safety that has been provided to my country, and in the
+								words of Mahatma Gandhi, I will aim to be the change I want to
+								see in the world.
+							
+
+
+								Click title for more.....
+						</p>
+					</div>
+				
+
+				
+
+				<iframe frameBorder="0"
+					src="../tabbitalks/snippet_2016-Nov-08-08-27-36.html" width="900"
+					height="260" style=" overflow: auto; margin-left : 20px; margin: 30px;  ">
+				</iframe>
+
+				<iframe frameBorder="0"
+					src="../tabbitalks/snippet_2016-Oct-12-16-25-43.html" width="900"
+					height="350" style=" overflow: auto; margin-left : 20px; margin: 30px;  ">
+				</iframe>
+
+				<iframe frameBorder="0"
+					src="../tabbitalks/snippet_2016-Oct-11-22-10-02.html" width="900"
+					height="350" style=" overflow: auto; margin-left : 20px; margin: 30px;  ">
+				</iframe>
+
+				<iframe frameBorder="0"
+					src="../tabbitalks/snippet_2016-Oct-10-11-33-25.html" width="900"
+					height="350" style=" overflow: auto; margin-left : 20px; margin: 30px;  ">
+				</iframe>
+
+			</g:HTML>
+
+
+
+
+		</b:Container>
+
+
+
+
+	</g:HTMLPanel>
+</ui:UiBinder> 
